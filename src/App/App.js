@@ -33,7 +33,7 @@ const handleChange = (item, price) => {
         </Col>
         <Col>
           <div className="App">
-            <Total order={order}/>
+            <Total/>
           </div>
         </Col>
       </Row>
