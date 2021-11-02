@@ -5,8 +5,8 @@ const Order = (ticket) => {
  console.log(ticket.order)
     return (   
         <Card style={{ width: '18rem' }}>
-        {ticket.order.map(choice => (    
-        <ListGroup as="ol" >
+        {ticket.order.map((choice, i)  => (    
+        <ListGroup key={i} as="ol" >
         <ListGroup.Item
           as="li"
           className="d-flex justify-content-between align-items-start"
@@ -21,6 +21,7 @@ const Order = (ticket) => {
         </ListGroup.Item>
       
         </ListGroup>
+        
         )
         )}
         </Card>
