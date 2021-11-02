@@ -9,7 +9,7 @@ const Drinks = ({ menu, handleChange }) => {
                 <Container key={item}>
             <Row>
                 <Col xs={6}>
-                <Button onClick={() => handleChange(item[0], item[1].price)}>{item[0]}</Button> 
+                    <Button onClick={() => handleChange(item[0], item[1].price)}>{item[0]}</Button> 
                 </Col>
                 <Col>
                     {item[1].price}
@@ -18,7 +18,6 @@ const Drinks = ({ menu, handleChange }) => {
                     {item[2]}
                 </Col>
                 <Col>
-               
                 </Col>
             </Row>
         </Container>

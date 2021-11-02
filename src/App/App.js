@@ -28,12 +28,12 @@ const handleChange = (item, price) => {
         </Col>
         <Col>
           <div className="App">
-            <Order order={order}/>
+            <Order/>
           </div>
         </Col>
         <Col>
           <div className="App">
-            <Total order={order}/>
+            <Total/>
           </div>
         </Col>
       </Row>
