@@ -12,7 +12,7 @@ function App() {
   
 const handleChange = (item, price) => {
   (setOrder(oldOrder =>  [...oldOrder, {item, price}]))
-  
+  console.log(order)
 }
   return (
     <>

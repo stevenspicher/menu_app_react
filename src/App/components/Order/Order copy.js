@@ -1,4 +1,3 @@
-
 import {ListGroup, Badge, Card} from 'react-bootstrap/';
 
 const Order = (ticket) => {
