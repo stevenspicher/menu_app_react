@@ -8,9 +8,12 @@ import Total from './components/Total'
 
 
 function App() {
+  //set state with empty array
   const  [order, setOrder] = useState([]);
   
+  //event handler
 const handleChange = (item, price) => {
+  //need to elaborate
   (setOrder(oldOrder =>  [...oldOrder, {item, price}]))
   console.log(order)
 }
