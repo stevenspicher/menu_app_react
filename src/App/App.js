@@ -10,28 +10,15 @@ function App() {
 
   return (
     <>
-    <div className="App-header">
-      <Header/>
-    </div>
-    <Container>
-      <Row>
-        <Col>
-          <div className="App">
-            <Menu />
-          </div>
-        </Col>
-        <Col>
-          <div className="App">
-            <Order/>
-          </div>
-        </Col>
-        <Col>
-          <div className="App">
-            <Total/>
-          </div>
-        </Col>
-      </Row>
-    </Container>
+  
+      <Header/> 
+    
+       <Menu />
+        
+       <Order/>
+        
+      <Total/>
+      
    
     
     </>
