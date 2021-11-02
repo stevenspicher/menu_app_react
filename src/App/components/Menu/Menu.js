@@ -1,4 +1,3 @@
-import fullMenu from '../assets/menu'
 import Dropdown from 'react-bootstrap/Dropdown';
 import { Card } from 'react-bootstrap'
 import {Route, Switch, Link } from 'react-router-dom';
@@ -8,7 +7,7 @@ import Dessert from './Dessert';
 import Appetizers from './Appetizers';
 
 
-const Menu = ( {handleChange}) => {
+const Menu = () => {
     
     return (
         <Card style={{ width: '25rem' }}>
@@ -26,10 +25,10 @@ const Menu = ( {handleChange}) => {
         </Dropdown>
         <div>
         <Switch>
-            <Route path= "/action-1"> <Drinks menu={fullMenu[0]} handleChange={handleChange}/></Route>
-            <Route path= "/action-2"> <Appetizers menu={fullMenu[1]} handleChange={handleChange}/></Route>   
-            <Route path= "/action-3"> <Meals menu={fullMenu[2]} handleChange={handleChange}/></Route>
-            <Route path= "/action-4"> <Dessert menu={fullMenu[3]} handleChange={handleChange}/></Route> 
+            <Route path= "/action-1"> <Drinks /></Route>
+            <Route path= "/action-2"> <Appetizers /></Route>   
+            <Route path= "/action-3"> <Meals /></Route>
+            <Route path= "/action-4"> <Dessert /></Route> 
         </Switch>
         </div>
         </Card>

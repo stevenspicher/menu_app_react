@@ -1,5 +1,4 @@
 import './App.css';
-import { useState} from 'react'
 import {Container, Row, Col} from 'react-bootstrap'
 import Header from './components/Header'
 import Menu from './components/Menu/Menu'
@@ -8,12 +7,7 @@ import Total from './components/Total/Total'
 
 
 function App() {
-  const  [order, setOrder] = useState([]);
-  
-const handleChange = (item, price) => {
-  (setOrder(oldOrder =>  [...oldOrder, {item, price}]))
-  console.log(order)
-}
+
   return (
     <>
     <div className="App-header">
@@ -23,7 +17,7 @@ const handleChange = (item, price) => {
       <Row>
         <Col>
           <div className="App">
-            <Menu  handleChange={handleChange}/>
+            <Menu />
           </div>
         </Col>
         <Col>
