@@ -12,7 +12,7 @@ const Menu = () => {
     return (
         <Card style={{ width: '25rem' }}>
         <Dropdown>
-            <Dropdown.Toggle variant="success" id="dropdown-basic">
+            <Dropdown.Toggle variant="primary" id="dropdown-basic">
             Menu
             </Dropdown.Toggle>
         
