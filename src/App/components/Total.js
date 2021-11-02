@@ -1,8 +1,6 @@
-
-
 const Total = () => {
- return (   
-<h1>Total</h1>
- )
+    return (   
+        "Total"
+    )
 }
 export default Total
