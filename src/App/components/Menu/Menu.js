@@ -1,10 +1,10 @@
 import Dropdown from 'react-bootstrap/Dropdown';
 import { Card } from 'react-bootstrap'
 import {Route, Switch, Link } from 'react-router-dom';
-import Drinks from './Drinks';
-import Meals from './Meals';
-import Dessert from './Dessert';
-import Appetizers from './Appetizers';
+import Drinks from './Menu_pages/Drinks';
+import Meals from './Menu_pages/Meals';
+import Dessert from './Menu_pages/Dessert';
+import Appetizers from './Menu_pages/Appetizers';
 
 
 const Menu = () => {
